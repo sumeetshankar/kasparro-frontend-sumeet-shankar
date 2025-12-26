@@ -1,18 +1,18 @@
-# Kasparro – AI-Native SEO Platform (Frontend)
+# Kasparro – AI-Native SEO Intelligence Platform
 
-This repository contains the frontend implementation of **Kasparro**, an AI-native SEO and Brand Intelligence platform designed for the AI-first search era (ChatGPT, Gemini, Perplexity, etc.).
-
-The purpose of this project is to demonstrate **system-level thinking, frontend architecture, and product design maturity**, rather than visual polish alone.
+Kasparro is a modern, AI-first SEO intelligence platform designed to help brands understand how they appear across AI-powered search systems and large language models (LLMs).  
+Unlike traditional SEO tools that focus only on keywords and rankings, Kasparro focuses on **AI visibility, trust, and contextual relevance**.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Next.js (App Router)**
-- **TypeScript**
-- **Tailwind CSS**
-- Component-based architecture
-- Typed mock data (no backend dependency)
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks
+- **Architecture:** Component-driven & data-first
+- **Data Source:** JSON-based mock data
 
 ---
 
@@ -27,130 +27,51 @@ The platform is designed to model how modern LLM-driven systems interpret brand 
 
 ---
 
-## 🧭 System Architecture Overview
+## 🛠️ Installation
 
-Kasparro is designed as a modular AI system with clearly defined stages:
+To get started with the project, follow these steps:
 
-Inputs
-↓
-InputAssembler
-↓
-ContextPack
-↓
-Audit Modules
-↓
-Output Surfaces
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/kasparro-frontend.git
+   ```
 
+2. Navigate to the project directory:
+   ```bash
+   cd kasparro-frontend
+   ```
 
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Each stage is intentionally separated to reflect real-world AI system design.
-
----
-
-## 🔹 Inputs
-
-Raw signals collected from the AI-visible ecosystem:
-
-- Brand websites
-- Public citations and mentions
-- Competitor entities
-- AI prompt patterns
-- Knowledge graph signals
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
-## 🔹 InputAssembler
+## 🏗️ Architectural Decisions
 
-Transforms raw inputs into structured, machine-readable data:
+### Component-Driven Architecture
+The project follows a **component-driven architecture**, ensuring that each UI element is modular, reusable, and easy to maintain. Components are organized by feature and responsibility, promoting separation of concerns.
 
-- Entity extraction  
-- Content normalization  
-- Prompt alignment  
+### Typed Data Models
+Mock data is stored in dedicated files under the `src/data` directory and is fully typed using TypeScript interfaces. This ensures data consistency and reduces runtime errors.
 
-This layer ensures consistency before analysis.
-
----
-
-## 🔹 ContextPack
-
-A structured representation of brand meaning used by AI systems:
-
-- Brand entities  
-- Topical authority signals  
-- Trust and sentiment context  
-
-This acts as the “mental model” AI systems use when reasoning about a brand.
+### Tailwind CSS Integration
+Styling is handled using **Tailwind CSS**, enabling rapid UI development with a utility-first approach. The design system ensures consistency across the application.
 
 ---
 
-## 🔹 Audit Modules
+## 📖 Documentation
 
-Independent evaluators that analyze brand performance inside AI systems:
-
-- AI Visibility Index  
-- Prompt Presence  
-- Brand Sentiment  
-- Citation Tracking  
-- Competitor AI Share  
-- Content Authority  
-- AI Crawlability  
-
-Each module operates independently and produces structured, comparable insights.
+For detailed documentation, refer to the `docs/` directory or visit the [online documentation](https://example.com/docs).
 
 ---
 
-## 🔹 Output Surfaces
+## 🤝 Contributing
 
-Actionable insights delivered to users:
-
-- Dashboard metrics  
-- Module-level diagnostics  
-- Recommendations  
-- Trend analysis  
-
----
-
-## 📁 Folder Structure
-
-src/
-├── app/
-│ ├── page.tsx # Marketing homepage
-│ ├── platform/ # Product explanation pages
-│ ├── about/ # Mission & vision
-│ └── app/ # Authenticated product shell
-│ ├── dashboard/
-│ ├── audit/
-│ └── architecture/
-│
-├── components/
-│ ├── layout/ # Global layout components
-│ ├── home/ # Landing page sections
-│ ├── platform/ # Product explanation components
-│ ├── app/ # Dashboard UI components
-│ └── shared/ # Reusable UI primitives
-│
-├── data/ # Typed mock data
-├── types/ # Shared TypeScript interfaces
-
-
-
----
-
-## 🧠 Data Modeling Philosophy
-
-- All UI is driven by strongly typed mock data  
-- No hardcoded values inside components  
-- Easy to replace mock data with real APIs  
-- Predictable, debuggable state flow  
-
-Example:
-
-```ts
-interface AuditModule {
-  id: string;
-  name: string;
-  score: number;
-  insights: string[];
-  issues: string[];
-  recommendations: string[];
-}
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
