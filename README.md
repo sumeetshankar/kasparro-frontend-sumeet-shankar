@@ -1,32 +1,42 @@
-# Kasparro – AI-Native SEO Intelligence Platform
+# Kasparro – AI-Native SEO Platform (Frontend)
 
-Kasparro is a modern, AI-first SEO intelligence platform designed to help brands understand how they appear across AI-powered search systems and large language models (LLMs).  
-Unlike traditional SEO tools that focus only on keywords and rankings, Kasparro focuses on **AI visibility, trust, and contextual relevance**.
+This repository contains the frontend implementation of **Kasparro**, an AI-native SEO and Brand Intelligence platform designed for the AI-first search era (ChatGPT, Gemini, Perplexity, etc.).
+
+The goal of this project is to demonstrate **product thinking, system design, and frontend engineering discipline**, rather than visual polish alone.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Framework:** Next.js (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **State Management:** React Hooks
-- **Architecture:** Component-driven & data-first
-- **Data Source:** Structured JSON (mocked APIs)
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- Component-driven architecture
+- Mocked, strongly typed data (no backend required)
 
 ---
 
-## 📦 Installation & Setup
+## 🧠 Product Overview
 
-```bash
-# Clone the repository
-git clone https://github.com/sumeetshankar/kasparro-frontend-sumeet-shankar.git
+Kasparro helps brands understand **how AI systems interpret, summarize, and recommend them** — going beyond traditional SEO metrics.
 
-# Navigate to project directory
-cd kasparro-frontend-sumeet-shankar
+The product is divided into two major surfaces:
 
-# Install dependencies
-npm install
+### 1. Public Website (`/`)
+Explains:
+- What AI-native SEO means
+- Why traditional SEO tools fail for LLMs
+- How Kasparro analyzes brand visibility inside AI systems
 
-# Run development server
-npm run dev
+### 2. Product Dashboard (`/app`)
+A simulated authenticated experience that demonstrates:
+- Brand-level insights
+- Modular AI audits
+- Structured system architecture
+
+---
+
+## 🧱 Architecture Overview
+
+The system is intentionally modeled to reflect how real AI pipelines work.
+
