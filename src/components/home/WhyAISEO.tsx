@@ -5,9 +5,11 @@ export default function WhyAISEO() {
         Why AI-SEO is Different
       </h2>
       <p className="text-gray-400">
-        Traditional SEO optimizes for links and keywords.
-        AI-SEO optimizes for how AI systems interpret, summarize,
-        and recommend your brand.
+        Traditional SEO focuses on optimizing for links, keywords, and search engine rankings.
+        AI-SEO, on the other hand, ensures your brand is effectively interpreted, summarized,
+        and recommended by AI systems like ChatGPT and Gemini. For example, AI-SEO involves
+        optimizing content for AI-driven summaries and ensuring visibility in AI-generated
+        recommendations.
       </p>
     </section>
   );
