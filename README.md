@@ -1,60 +1,36 @@
-# Kasparro Frontend
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Overview
-Kasparro Frontend is a Next.js-based application designed to showcase AI-native SEO capabilities. It leverages the App Router for file-based routing, TypeScript for type safety, and Tailwind CSS for styling. The project is structured to ensure scalability, maintainability, and a clear separation of concerns.
+## Getting Started
 
-## Features
-- **Next.js App Router**: Clean and efficient file-based routing.
-- **TypeScript**: Strongly typed data models and interfaces.
-- **Tailwind CSS**: Consistent and scalable styling.
-- **Component Architecture**: Modular and reusable components.
-- **Mock Data**: Isolated and properly typed mock data for development.
+First, run the development server:
 
-## Installation
-To set up the project locally, follow these steps:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/kasparro-frontend.git
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-2. Navigate to the project directory:
-   ```bash
-   cd kasparro-frontend
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-4. Start the development server:
-   ```bash
-   npm start
-   ```
+## Learn More
 
-## Architectural Decisions
-- **Folder Structure**: The project is organized into `app`, `components`, `data`, `lib`, `styles`, and `types` directories to ensure a clear separation of concerns.
-- **State Management**: React hooks are used for predictable and clean state management.
-- **Data Modeling**: JSON files serve as the single source of truth, with strong TypeScript interfaces ensuring type safety.
-- **Styling**: Tailwind CSS is used for consistent and scalable styling.
+To learn more about Next.js, take a look at the following resources:
 
-## AI-SEO Differentiation
-Kasparro Frontend highlights the unique value proposition of AI-native SEO through:
-- **Clear Narrative**: Differentiating AI-SEO from traditional SEO with a coherent narrative across modules.
-- **Specific Examples**: Showcasing concrete examples of AI-SEO applications (e.g., automated keyword generation, content optimization).
-- **Pipeline Visualization**: A clear representation of the AI-SEO process pipeline.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Contribution
-Contributions are welcome! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with clear messages.
-4. Submit a pull request.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-For any questions or feedback, feel free to reach out to the project maintainers.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
